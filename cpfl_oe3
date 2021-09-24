@@ -12,7 +12,7 @@ int main(){
     double rate_per_hour;
     double gross_pay;
     double net_pay;
-    
+
 
 //Basic Information to the employee 
     cout << "What is your name? ";
@@ -25,8 +25,6 @@ int main(){
     cin >> rate_per_hour;
 
     gross_pay = num_hours_work * rate_per_hour;
-
-
 
     if(gross_pay <20000) {
         net_pay = gross_pay - (gross_pay * .05); //5% Tax for less than 20000 salary
