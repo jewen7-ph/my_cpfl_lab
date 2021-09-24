@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "cpfl_oe3": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
