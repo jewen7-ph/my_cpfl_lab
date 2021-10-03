@@ -1,1 +1,1 @@
-cin >> rate_per_hour;
+num == 0

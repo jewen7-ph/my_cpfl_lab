@@ -14,8 +14,11 @@ int main ()
     {
         cout << "Please Enter The Number : ";
         cin >> dnum;
-        if(num %2 == 0)
+        if(dnum %2 == 0)
         {
+            cout << "Your Number is even" << endl;
+        }
+        else if (dnum == 0){
             cout << "Your Number is even" << endl;
         }
         else 
