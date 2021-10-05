@@ -7,23 +7,20 @@ int main ()
     int num, dnum;
     int i = 0;
 
-    cout << "Enter your range of numbers ";
+    cout << "Enter your range of number(s) ";
     cin >> num;
-    
+    cout << "Enter the number(s): ";
+
     while (i < num)
     {
-        cout << "Please Enter The Number : ";
         cin >> dnum;
         if(dnum %2 == 0)
         {
-            cout << "Your Number is even" << endl;
-        }
-        else if (dnum == 0){
-            cout << "Your Number is even" << endl;
+            cout << dnum << " is even" << endl;
         }
         else 
         {
-            cout << "Your Number is odd" << endl;
+            cout << dnum <<" is odd" << endl;
         }
         i++;
     }
