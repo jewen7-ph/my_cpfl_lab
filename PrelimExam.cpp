@@ -26,7 +26,7 @@ int main(){
 
     grosspay = rate_hr * hrs;
     tax = grosspay * wtTax;
-    netpay = grosspay - tax - phl - sss - pgb;
+    netpay = grosspay - (tax + phl + sss + pgb);
     
     cout.setf(ios::fixed);
     cout.setf(ios::showpoint);
