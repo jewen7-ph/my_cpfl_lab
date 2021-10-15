@@ -7,7 +7,7 @@ int main ()
     int num, dnum;
     int i = 0;
 
-    cout << "Enter your range of number(s) ";
+    cout << "Enter your range of number(s): ";
     cin >> num;
     cout << "Enter the number(s): ";
 
