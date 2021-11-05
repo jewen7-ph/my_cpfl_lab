@@ -13,7 +13,7 @@ struct group_facet: public numpunct <char> {
 
 /* Function takes two arguments: one float and one unsigned int.
     The unsigned int has a default value of 1. Function returns no value.*/
-void dollarsToPeso ( float rate, double dollar );
+void dollarsToPeso (float rate, double dollar );
 void pesoToDollars (float rate, double peso );
 int ans;
 int main()
@@ -42,6 +42,7 @@ int main()
             {
                 system("cls");
                 cout << "\n<< Convert Dollar to Peso >>" << endl;
+                cout << "$1 = PHP 50.73" << endl;
                 cout << "Enter Amount in Dollar(s): ";
                 cin >> dollarsIn;
                 dollarsToPeso(rate, dollarsIn); // Show the exchange rate by calling the function.
@@ -54,6 +55,7 @@ int main()
             {
                 system("cls");
                 cout << "\n<< Convert Peso to Dollar >>" << endl;
+                cout << "1 PHP = $0.02" << endl;
                 cout << "Enter Amount in Peso(s): ";
                 cin >> pesoIn;
                 pesoToDollars(rate, pesoIn); // Show the exchange rate by calling the function.
