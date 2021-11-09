@@ -12,7 +12,7 @@ char ch[30];
 
 int main(){
    do{
-   system("cls");
+      system("cls");
         cout << endl;
         entrance:
         cout << "\n<< Password/Passcode Handler 2021 >>" << endl;
