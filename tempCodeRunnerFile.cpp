@@ -1,1 +1,1 @@
-cin.getline(ch,30);
+Thank you for using the application.
