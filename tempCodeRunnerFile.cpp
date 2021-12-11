@@ -1,1 +1,1 @@
-Thank you for using the application.
+while (getline (ReadFile, data)
